@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Qué es HTML5?</title>
+</head>
+<body>
+
+  <header>
+    <h1 id="Titulo">🌐 Introducción a HTML5</h1>
+    <p>Conocé qué es HTML5 y por qué es tan importante para el desarrollo web hoy en día.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#Titulo">Inicio</a></li>
+      <li><a href="#Articulo">HTML5</a></li>
+      <li><a href="#Resumen">Resumen HTML5</a></li>
+      <li><a href="#Rutas Absolutas y Relativas">Tipos de Rutas</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2 id="Articulo">Artículo</h2>
+  </section>
+
+  <article>
+    <h2>¿Qué es HTML5?</h2>
+    <p><strong>HTML5</strong> es la versión más actualizada del lenguaje que se usa para crear y estructurar páginas web. Es como el esqueleto de cualquier sitio que ves en Internet.</p>
+
+    <p>A diferencia de las versiones anteriores, HTML5 trae un montón de mejoras que hacen más fácil trabajar con contenido multimedia, como videos y música, sin tener que usar programas externos.</p>
+
+    <h3>¿Qué cosas nuevas trae?</h3>
+    <ul>
+      <li>Etiquetas más claras y organizadas, como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code> y <code>&lt;article&gt;</code>, que ayudan a que el código sea más fácil de entender.</li>
+      <li>Soporte para <strong>audio y video</strong> directamente en la página.</li>
+      <li>Permite guardar datos en el navegador (ideal para apps web).</li>
+      <li>Funciona mejor en celulares y tablets.</li>
+    </ul>
+
+    <blockquote id="Resumen">
+      En resumen, HTML5 hace que crear páginas web modernas y dinámicas sea mucho más simple y ordenado. Además, mejora la accesibilidad y la velocidad de los sitios.
+    </blockquote>
+  </article>
+
+  <aside id="Rutas Absolutas y Relativas">
+    <h3>Tambien hay distintas formas de Acceder a imagenes (Rutas Relativas VS Rutas Absolutas)</h3>
+    <p>Por ejemplo esta foto esta en una ruta Absoluta</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUz9kby8rqaPud1ROPb1HipVhw785cseOCCg&s" alt="Imagen de HTML5">
+    <p>Mientras que las siguientes Imagenes son de distintos directorios relativos en las carpetas del proyecto</p>
+    <p>Imagen en <b>el mismo directorio</b> que el index</p>
+    <img src="image2.jpg" alt="Imagen en el mismo directorio">
+    <p>Imagen <b>una carpeta mas arriba</b> que el index</p>
+    <img src="../image1.jpg" alt="Imagen una carpeta mas arriba">
+    <p>Imagen <b>una carpeta mas abajo</b> que el index</p>
+    <img src="Assets/image3.jpg" alt="Imagen una carpeta mas abajo del directorio de index">
+    <p>Una imagen <b>varias carpetas mas abajo</b> que el index</p>
+    <img src="Assets/extras/image4.jpg" alt="Una carpeta varias veces mas abajo que el directorio de index">
+    <p>Desde el 2014 se hizo oficial su uso, y todo el mundo lo usa</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2024 Guido Olaf Del Zotto – Trabajo práctico de Desarrollo y arquitectura Web</p>
+  </footer>
+
+</body>
+</html>
