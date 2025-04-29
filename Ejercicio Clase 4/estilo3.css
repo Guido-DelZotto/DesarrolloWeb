@@ -5,7 +5,7 @@
 
 }
 #menu{
-    visibility: hidden;
+    display: none;
     width: 200px;
     background-color: #eee;
     float: left;
