@@ -43,3 +43,7 @@ section {
 .card-body{
     height: auto;
 }
+.carousel-img {
+    max-height: 400px;
+    object-fit: contain;
+  }
