@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+ }
+ /* Estilo del contenido principal */
+ main {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    }
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+/* Estilo del contenedor principal */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+/* Estilo del artículo */
+article{
+    width: 75%;
+    padding: 1rem;
+    }
